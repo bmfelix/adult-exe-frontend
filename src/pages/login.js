@@ -69,7 +69,7 @@ class LoginForm extends React.Component {
                         onChange={this.handlePasswordChange} value={ this.state.password }
                     />
 
-                    <Button color='black' fluid size='large' onClick={this.onSubmit}>
+                    <Button color='grey' fluid size='large' onClick={this.onSubmit}>
                         Login
                     </Button>
                     </Segment>

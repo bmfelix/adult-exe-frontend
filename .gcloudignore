@@ -2,5 +2,3 @@ node_modules
 build
 README.md
 .gitignore
-deploy.sh
-cleanup.sh

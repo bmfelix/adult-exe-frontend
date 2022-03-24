@@ -13,6 +13,15 @@
   }
 }
 
+.ui.inverted.grey.menu, .grey {
+  background-color: #444 !important;
+}
+
+.ui.inverted.menu a.item:hover {
+  background: #e03997 !important;
+  color: white !important;
+}
+
 .App-header {
   background-color: #8b0061;
   min-height: 100vh;

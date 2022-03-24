@@ -1,13 +1,11 @@
 import React from 'react';
-import { ReactComponent as Blossoms } from '../blossoms.svg';
-import { ReactComponent as AdultExe } from '../adult.svg';
-import { Header } from 'semantic-ui-react';
+import { Header, Image } from 'semantic-ui-react';
 
 const SiteHeader = () => {
     return (
         <Header as='h2' color='black' textAlign='center'>
-            <Blossoms />
-            <AdultExe />
+            <Image fluid centered src='/blossoms.png' style={{ width: '25%', display:'block' }}/>
+            <Image fluid centered src='/adult.png' style={{  width: '25%', display:'block' }}/>
         </Header>
     )
 }
