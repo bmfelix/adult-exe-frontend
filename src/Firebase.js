@@ -6,8 +6,6 @@ const config = {
     authDomain: process.env.REACT_APP_AUTH_DOMAIN,
 };
 
-console.log(process.env, 'config')
-
 firebase.initializeApp(config);
 
 export const firebaseAuth = firebase.auth();
