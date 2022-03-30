@@ -18,7 +18,6 @@ const App = () => {
         setLoggedIn(data);
     };
 
-
     return (
         <div className="App">
         <header className="App-header">
